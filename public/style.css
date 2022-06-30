@@ -6,11 +6,14 @@ body {
 
 @media(prefers-color-scheme: dark) {
 	body {
-		background-color: #505050;
+		background-color: #ff7f00;
 		color: #ffffff;
+		font-size: 1.2em;
 	}
 	a {
-		color: #ff7f00;
+		color: #050505;
+		font-size: 1.2em;
+
 	}
 }
 
