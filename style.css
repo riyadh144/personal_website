@@ -6,7 +6,7 @@ body {
 
 @media(prefers-color-scheme: dark) {
 	body {
-		background-color: #ff7f00;
+		background-color: #696969;
 		color: #ffffff;
 		font-size: 1.2em;
 	}
