@@ -2,6 +2,10 @@ body {
 	margin: auto;
 	max-width: 100ch;
 	padding: 1ch 2ch;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -17,3 +21,8 @@ body {
 	}
 }
 
+.pic{
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
