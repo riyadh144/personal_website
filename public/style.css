@@ -4,7 +4,7 @@ body {
 	padding: 1ch 2ch;
 	display: flex;
 	justify-content: center;
-	align-items: start;
+	align-items: center;
 	flex-direction: column;
 }
 
@@ -21,8 +21,20 @@ body {
 	}
 }
 
-.pic{
+.pic1{
 	position: absolute;
 	right: 1rem;
-	top: 1rem;
+	top: 6rem;
+}
+
+.pic2{
+	position: absolute;
+	left: 1rem;
+	top: 6rem;
+}
+
+.wrapper{
+	width: 50%;
+	height: 100vh;
+	margin-top: 50px;
 }
