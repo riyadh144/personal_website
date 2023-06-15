@@ -12,7 +12,7 @@ body {
 
 @media(prefers-color-scheme: dark) {
 	body {
-		background-image: linear-gradient(rgba(0,0,0,.75), grey);
+		background-color: #5f5f5f;
 		color: #ffffff;
 		font-size: 1.2em;
 	}
@@ -39,8 +39,4 @@ body {
 	width: 50%;
 	height: 100vh;
 	margin-top: 50px;
-}
-
-h2{
-	margin: auto;
 }

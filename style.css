@@ -14,25 +14,13 @@ body {
 	body {
 		background-image: linear-gradient(rgba(0,0,0,.75), grey);
 		color: #ffffff;
-		font-size: 1.2em;
+		font-size: 1.1rem;
 	}
 	a {
 		color: #050505;
-		font-size: 1.2em;
+		font-size: 1.1rem;
 
 	}
-}
-
-.pic1{
-	position: absolute;
-	right: 1rem;
-	top: 6rem;
-}
-
-.pic2{
-	position: absolute;
-	left: 1rem;
-	top: 6rem;
 }
 
 .wrapper{
@@ -41,6 +29,45 @@ body {
 	margin-top: 50px;
 }
 
-h2{
-	margin: auto;
+.textWrapper{
+	padding: 30px;
 }
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.picContainer{
+	position: absolute;
+	width: 95vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+	.picContainer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		top: 400px;
+	}
+	.textWrapper{
+		position: absolute;
+		left: 0;
+		font-size: 12px;
+		width: 100vw;
+	}
+	.pic1{
+		
+		width: 20%;
+	}
+
+	.pic2{
+		margin-bottom: 20px;
+		width: 20%;
+	}
+}
+
