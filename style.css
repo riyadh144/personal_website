@@ -2,11 +2,17 @@ body {
 	margin: auto;
 	max-width: 100ch;
 	padding: 1ch 2ch;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-height: 100vh;
+	overflow: hidden;
 }
 
 @media(prefers-color-scheme: dark) {
 	body {
-		background-color: #696969;
+		background-image: linear-gradient(rgba(0,0,0,.75), grey);
 		color: #ffffff;
 		font-size: 1.2em;
 	}
@@ -17,3 +23,24 @@ body {
 	}
 }
 
+.pic1{
+	position: absolute;
+	right: 1rem;
+	top: 6rem;
+}
+
+.pic2{
+	position: absolute;
+	left: 1rem;
+	top: 6rem;
+}
+
+.wrapper{
+	width: 50%;
+	height: 100vh;
+	margin-top: 50px;
+}
+
+h2{
+	margin: auto;
+}
