@@ -27,6 +27,7 @@ body {
 	width: 50%;
 	height: 100vh;
 	margin-top: 50px;
+	z-index: 1000;
 }
 
 .textWrapper{
